@@ -1,13 +1,21 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
+import Banner from '../Banner/Banner';
+import About from '../About/About';
+import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-black text-white'>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <Banner></Banner>
+            <About></About>
+            <Skills></Skills>
+            <Projects></Projects>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );

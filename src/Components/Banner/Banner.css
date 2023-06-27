@@ -1,0 +1,7 @@
+.bg-banner{
+    background-image: url('https://www.shiksha.com/online-courses/articles/wp-content/uploads/sites/11/2021/12/Programming-vs-Web-Development.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+}
