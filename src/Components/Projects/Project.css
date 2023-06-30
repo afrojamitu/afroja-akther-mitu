@@ -1,0 +1,14 @@
+.image-wrap{
+    height: 270px;
+    overflow: hidden;
+}
+.image-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 5s ease-in;
+}
+.image-wrap:hover img{
+    object-position: bottom center;
+}
