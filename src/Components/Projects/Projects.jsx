@@ -14,10 +14,10 @@ const Projects = () => {
                     <div className="image-wrap">
                         <img src="https://i.ibb.co/M1szq70/toy-land.png" alt="" />
                     </div>
-                    <h1 className='text-3xl font-semibold'>Toy Land</h1>
-                    <h3 className="text-xl font-semibold">Technology: <span className='text-base font-normal text-slate-200'>React.js, React-Router, Tailwind CSS, Firebase Authentication, Express.js, MongoDb</span></h3>
+                    <h1 className='text-3xl'>Toy Land | <span className="text-xl text-slate-300 font-normal">Full Stack Project</span></h1>
+                    <h3 className="text-xl">Technology: <span className='text-base font-normal text-slate-200'>React.js, React-Router, Tailwind CSS, Firebase Authentication, Express.js, MongoDb</span></h3>
 
-                    <h3 className="text-xl font-semibold">Features:</h3>
+                    <h3 className="text-xl">Features:</h3>
                     <span className='text-slate-200 font-normal'>
                         <p className='flex gap-3'><span className='text-orange-400'>•</span>This is a full stack website. In this website a user can sign up for an account with email-password or google</p>
                         <p className='flex gap-3'><span className='text-orange-400'>•</span>After logging in user will be able to access some private routes</p>
@@ -36,10 +36,10 @@ const Projects = () => {
                     <div className="image-wrap">
                         <img src="https://i.ibb.co/nQZpWrh/flavor-fiesta.png" alt="" />
                     </div>
-                    <h1 className='text-3xl font-semibold'>Flavor Fiesta</h1>
-                    <h3 className="text-xl font-semibold">Technology: <span className='text-base font-normal text-slate-200'> React.js, Tailwind CSS, Firebase Authentication, Express.js, Node.js, MongoDb</span></h3>
+                    <h1 className='text-3xl'>Flavor Fiesta | <span className="text-xl text-slate-300 font-normal">Full Stack Project</span></h1>
+                    <h3 className="text-xl">Technology: <span className='text-base font-normal text-slate-200'> React.js, Tailwind CSS, Firebase Authentication, Express.js, Node.js, MongoDb</span></h3>
 
-                    <h3 className="text-xl font-semibold">Features:</h3>
+                    <h3 className="text-xl">Features:</h3>
                     <span className='text-slate-200 font-normal'>
                         <p className='flex gap-3'><span className='text-orange-400'>•</span>Users can sign up for an account with email-password or google.</p>
                         <p className='flex gap-3'><span className='text-orange-400'>•</span>Before logging in a user is unable to see chef's details, if they try they will be redirected to the login page.</p>
@@ -58,10 +58,10 @@ const Projects = () => {
                     <div className="image-wrap">
                         <img src="https://i.ibb.co/JtLv85p/job-nexus.png" alt="" />
                     </div>
-                    <h1 className='text-3xl font-semibold'>Job Nexus</h1>
-                    <h3 className="text-xl font-semibold">Technology: <span className='text-base font-normal text-slate-200'>React.js, React-Router, Tailwind CSS, daisyUI, Localstorage</span></h3>
+                    <h1 className='text-3xl'>Job Nexus | <span className="text-xl text-slate-300 font-normal">Frontend Project</span></h1>
+                    <h3 className="text-xl">Technology: <span className='text-base font-normal text-slate-200'>React.js, React-Router, Tailwind CSS, daisyUI, Localstorage</span></h3>
 
-                    <h3 className="text-xl font-semibold">Features:</h3>
+                    <h3 className="text-xl">Features:</h3>
                     <span className='text-slate-200 font-normal'>
                         <p className='flex gap-3'><span className='text-orange-400'>•</span>Job Nexus is a Job searching Website designed with React.js</p>
                         <p className='flex gap-3'><span className='text-orange-400'>•</span>Users can apply for any job just once. If someone tries to apply again they will see a toast</p>
@@ -78,10 +78,10 @@ const Projects = () => {
                     <div className="image-wrap">
                         <img src="https://i.ibb.co/yqFVLs9/coffee-shop.png" alt="" />
                     </div>
-                    <h1 className='text-3xl font-semibold'>Espresso Emporium</h1>
-                    <h3 className="text-xl font-semibold">Technology: <span className='text-base font-normal text-slate-200'>React.js, React-Router, Tailwind CSS, daisyUI, Localstorage</span></h3>
+                    <h1 className='text-3xl'>Espresso Emporium | <span className="text-xl text-slate-300 font-normal">Full Stack Project</span></h1>
+                    <h3 className="text-xl">Technology: <span className='text-base font-normal text-slate-200'>React.js, React-Router, Tailwind CSS, daisyUI, Localstorage</span></h3>
 
-                    <h3 className="text-xl font-semibold">Features:</h3>
+                    <h3 className="text-xl">Features:</h3>
                     <span className='text-slate-200 font-normal'>
                         <p className='flex gap-3'><span className='text-orange-400'>•</span>Job Nexus is a Job searching Website designed with React.js</p>
                         <p className='flex gap-3'><span className='text-orange-400'>•</span>Users can apply for any job just once. If someone tries to apply again they will see a toast</p>
@@ -90,9 +90,9 @@ const Projects = () => {
                     <span className='flex gap-3 items-center text-lg'>
                         <Link to='https://flavor-fiesta.web.app/' className='text-blue-400 hover:underline'>Live Preview</Link>
                         <span className='text-2xl text-orange-400'>»</span>
-                        <Link to='https://github.com/afrojamitu/flavor-fiesta' className='text-blue-400 hover:underline'>Client Site</Link>
+                        <Link to='https://github.com/afrojamitu/coffee-shop-client' className='text-blue-400 hover:underline'>Client Site</Link>
                         <span className='text-2xl text-orange-400'>»</span>
-                        <Link to='https://github.com/afrojamitu/flavor-fiesta-server' className='text-blue-400 hover:underline'>Server Site</Link>
+                        <Link to='https://github.com/afrojamitu/coffee-shop-server' className='text-blue-400 hover:underline'>Server Site</Link>
                     </span>
                 </div>
             </div>
