@@ -1,3 +1,4 @@
 .navbar .nav-menu .active{
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #9333EA;
+    color: #9333EA;
 }

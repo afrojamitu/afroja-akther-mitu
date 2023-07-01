@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='bg-black'>
+        <div className='bg-gray-950'>
             <div className='md:w-10/12 md:mx-auto mx-5 md:py-10 py-5'>
                 <footer className="footer p-5 text-white">
                     <div>
-                        <img className='w-8 md:w-12' src="https://i.ibb.co/QMpXLmR/logo.png" alt="" />
+                        <img className='w-8 md:w-16' src="https://i.ibb.co/10gRVvC/logo.png" alt="" />
                         <h1 className='text-3xl text-white'>Afroja Akther Mitu</h1>
-                        <h3 className='text-orange-400'>Jr. Frontend Developer</h3>
+                        <h3 className='text-purple-500'>Jr. Frontend Developer</h3>
                     </div>
                     <div>
                         <span className="footer-title">Quick Links</span>
