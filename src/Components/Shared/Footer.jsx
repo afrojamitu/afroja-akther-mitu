@@ -7,18 +7,18 @@ const Footer = () => {
         <div className='bg-gray-950'>
             <div className='md:w-10/12 md:mx-auto mx-5 md:py-10 py-5'>
                 <footer className="footer p-5 text-white">
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="2000">
                         <img className='w-8 md:w-16' src="https://i.ibb.co/10gRVvC/logo.png" alt="" />
                         <h1 className='text-3xl text-white'>Afroja Akther Mitu</h1>
                         <h3 className='text-purple-500'>Jr. Frontend Developer</h3>
                     </div>
-                    <div>
+                    <div data-aos="fade-up" data-aos-duration="2000">
                         <span className="footer-title">Quick Links</span>
                         <Link to='/about' className="link link-hover">About</Link>
                         <Link to='/resume' className="link link-hover">Resume</Link>
                         <Link to='/projects' className="link link-hover">Projects</Link>
                     </div>
-                    <div>
+                    <div data-aos="fade-left" data-aos-duration="2000">
                         <span className="footer-title">Social</span>
                         <div className="flex gap-3 items-center justify-center">
                             <Link className='shadow-xl w-12 h-12 rounded-full' to='https://www.facebook.com/afrojaakther.mitu.733'><FaFacebook className='text-white p-3 w-12 h-12 bg-gray-800 shadow-xl rounded-full'></FaFacebook></Link>

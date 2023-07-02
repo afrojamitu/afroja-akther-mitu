@@ -4,13 +4,13 @@ import './Project.css'
 
 const Projects = () => {
     return (
-        <div className='md:w-10/12 md:mx-auto mx-10' id='project'>
-            <h1 className='text-center text-4xl pb-2 font-semibold text-purple-500'>Project's</h1>
-            <hr className='w-16 mx-auto pb-3' style={{ borderColor: "purple" }} />
+        <div className='md:w-10/12 md:mx-auto mx-10 md:py-10' id='project'>
+            <h1 className='text-center text-4xl pb-2 font-semibold text-purple-500' data-aos="fade-up" data-aos-duration="2000">Project's</h1>
+            <hr className='w-16 mx-auto pb-3' style={{ borderColor: "purple" }} data-aos="fade-up" data-aos-duration="3000" />
 
             <div className='grid md:grid-cols-2 gap-16 my-5'>
                 {/* project-1 */}
-                <div className="space-y-2">
+                <div className="space-y-2" data-aos="fade-up" data-aos-duration="2000">
                     <div className="image-wrap h-[200px] md:h-[270px]">
                         <img src="https://i.ibb.co/M1szq70/toy-land.png" alt="" />
                     </div>
@@ -32,7 +32,7 @@ const Projects = () => {
                     </span>
                 </div>
                 {/* project-2 */}
-                <div className='space-y-2'>
+                <div className='space-y-2' data-aos="fade-up" data-aos-duration="2000">
                     <div className="image-wrap h-[200px] md:h-[270px]">
                         <img src="https://i.ibb.co/nQZpWrh/flavor-fiesta.png" alt="" />
                     </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                     </span>
                 </div>
                 {/* project-3 */}
-                <div className='space-y-2'>
+                <div className='space-y-2' data-aos="fade-up" data-aos-duration="2000">
                     <div className="image-wrap h-[200px] md:h-[270px]">
                         <img src="https://i.ibb.co/JtLv85p/job-nexus.png" alt="" />
                     </div>
@@ -74,7 +74,7 @@ const Projects = () => {
                     </span>
                 </div>
                 {/* project-4 */}
-                <div className='space-y-2'>
+                <div className='space-y-2' data-aos="fade-up" data-aos-duration="2000">
                     <div className="image-wrap h-[200px] md:h-[270px]">
                         <img src="https://i.ibb.co/yqFVLs9/coffee-shop.png" alt="" />
                     </div>
