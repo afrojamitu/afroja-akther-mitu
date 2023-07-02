@@ -29,7 +29,7 @@ const Navbar = () => {
                         </ul>
                     </div>
 
-                    <div data-aos="fade-right" data-aos-duration="3000">
+                    <div className='flex items-center' data-aos="fade-right" data-aos-duration="3000">
                     <img className='w-10 md:w-12' src="https://i.ibb.co/10gRVvC/logo.png" alt="" />
                     <Link to="banner" spy={true} smooth={true} offset={-150} duration={500}  className='cursor-pointer'><h1 className='text-xl md:text-3xl text-white'>Afroja Mitu</h1></Link>
                     </div>
