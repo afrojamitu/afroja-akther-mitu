@@ -36,10 +36,10 @@ const Contact = () => {
             <h1 className='text-center text-4xl pb-2 font-semibold text-purple-500'  data-aos="fade-up" data-aos-duration="2000">Contact Me</h1>
             <hr className='w-16 mx-auto pb-8' style={{ borderColor: "purple" }} data-aos="fade-up" data-aos-duration="3000" />
             <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10 items-center  justify-center'>
-                <div className='hidden md:block' data-aos="fade-up" data-aos-duration="2000">
-                    <img className='' src="https://i.ibb.co/N78h9zg/68747470733a2f2f647265736d612e61692f77702d636f6e74656e742f75706c6f6164732f323032322f30322f456e67696e.gif" alt="" />
+                <div className='hidden md:block w-[80%]' data-aos="fade-up" data-aos-duration="2000">
+                    <img className='' src="https://www.sensorai.net/static/img/conversation-analytics/voice-analytics-3.gif" alt="" />
                 </div>
-                <form ref={form} onSubmit={sendEmail} className='grid gap-5 w-full md:w-[90%] mx-auto shadow-md p-5 rounded-md' data-aos="fade-up" data-aos-duration="2000">
+                <form ref={form} onSubmit={sendEmail} className='grid gap-5 w-full md:w-[90%] mx-auto shadow-md md:p-5 rounded-md' data-aos="fade-up" data-aos-duration="2000">
                     <input type="text" name='name' placeholder="Your Name" className="border border-purple-500 shadow-md shadow-purple-500 w-full px-3 py-2 rounded-md bg-transparent" required/>
 
                     <input type="email" name='email' placeholder="Email" className="border border-purple-500 shadow-md shadow-purple-500 w-full px-3 py-2 rounded-md bg-transparent" required/>
