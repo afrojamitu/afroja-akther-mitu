@@ -39,7 +39,7 @@ const Contact = () => {
                 <div className='hidden md:block' data-aos="fade-up" data-aos-duration="2000">
                     <img className='' src="https://i.ibb.co/N78h9zg/68747470733a2f2f647265736d612e61692f77702d636f6e74656e742f75706c6f6164732f323032322f30322f456e67696e.gif" alt="" />
                 </div>
-                <form ref={form} onSubmit={sendEmail} className='grid gap-5 w-[90%] mx-auto shadow-md p-5 rounded-md' data-aos="fade-up" data-aos-duration="2000">
+                <form ref={form} onSubmit={sendEmail} className='grid gap-5 w-full md:w-[90%] mx-auto shadow-md p-5 rounded-md' data-aos="fade-up" data-aos-duration="2000">
                     <input type="text" name='name' placeholder="Your Name" className="border border-purple-500 shadow-md shadow-purple-500 w-full px-3 py-2 rounded-md bg-transparent" required/>
 
                     <input type="email" name='email' placeholder="Email" className="border border-purple-500 shadow-md shadow-purple-500 w-full px-3 py-2 rounded-md bg-transparent" required/>

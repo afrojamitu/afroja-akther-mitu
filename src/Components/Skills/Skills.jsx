@@ -6,7 +6,7 @@ const Skills = () => {
             <h1 className='text-center text-purple-500 text-4xl font-semibold pb-2' data-aos="fade-up" data-aos-duration="2000">My Skill's</h1>
             <hr className='w-16 mx-auto pb-3' style={{ borderColor: "purple" }} data-aos="fade-up" data-aos-duration="3000" />
 
-            <div className='grid grid-cols-4 md:grid-cols-8 gap-5 my-8 justify-center justify-items-center items-center'>
+            <div className='grid grid-cols-3 md:grid-cols-8 gap-5 my-8 justify-center justify-items-center items-center'>
 
                 <div className='shadow-md shadow-purple-300 p-2 bg-slate-950 rounded text-center space-y-2' data-aos="fade-up" data-aos-duration="2000">
                     <img className='w-16 h-16' src="https://i.ibb.co/WtFJ8yX/html-logo.png" alt="" />

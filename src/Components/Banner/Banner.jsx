@@ -31,10 +31,10 @@ const Banner = () => {
                 </h1>
                 <h4 className="text-base text-slate-300 pb-1">Let me know if you have any curiousity or any kind of issue's relevent to my skill's. I'm ready to help you with that.</h4>
 
-                <div className='my-5 flex items-center gap-5' data-aos="fade-up" data-aos-duration="3000">
-                    <button onClick={handleDownload} className='bg-purple-600 font-bold rounded px-3 py-1 flex items-center gap-2 cursor-pointer hover:bg-transparent border-2 border-purple-600 hover:shadow-md hover:shadow-purple-500' style={{ transition: '0.3s' }}>Download Resume <FaDownload /> </button>
+                <div className='my-5 flex items-center gap-3 md:gap-5' data-aos="fade-up" data-aos-duration="3000">
+                    <button onClick={handleDownload} className='bg-purple-600 font-bold rounded px-2 md:px-3 md:py-1 flex items-center md:gap-2 cursor-pointer hover:bg-transparent border-2 border-purple-600 hover:shadow-md hover:shadow-purple-500' style={{ transition: '0.3s' }}>Download Resume <FaDownload /> </button>
 
-                    <Link to='contact' spy={true} smooth={true} offset={-50} duration={1000} className='bg-purple-600 font-bold rounded px-3 py-1 flex items-center gap-2 cursor-pointer hover:bg-transparent border-2 border-purple-600 hover:shadow-md hover:shadow-purple-500' style={{ transition: '0.3s' }}>Hire Me <FaUserCheck /></Link>
+                    <Link to='contact' spy={true} smooth={true} offset={-50} duration={1000} className='bg-purple-600 font-bold rounded px-2 md:px-3 md:py-1 flex items-center md:gap-2 cursor-pointer hover:bg-transparent border-2 border-purple-600 hover:shadow-md hover:shadow-purple-500' style={{ transition: '0.3s' }}>Hire Me <FaUserCheck /></Link>
                 </div>
 
             </div>
