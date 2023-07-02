@@ -17,7 +17,7 @@ const About = () => {
                 </p>
 
                 <div className='mt-3'>
-                <Link to='contact' spy={true} smooth={true} offset={-50} duration={1000} className='bg-purple-600 font-bold rounded px-3 py-1 cursor-pointer hover:bg-transparent border-2 border-purple-600 hover:shadow-md hover:shadow-purple-500' style={{transition: '0.3s'}}>Get In Touch</Link>
+                <Link to='contact' spy={true} smooth={true} offset={-50} duration={1000} className='bg-purple-600 font-bold rounded px-3 py-1 cursor-pointer hover:bg-transparent border-2 border-purple-600 hover:shadow-md hover:shadow-purple-500' style={{transition: '0.3s'}}>Hire Me</Link>
                 </div>
             </div>
 
