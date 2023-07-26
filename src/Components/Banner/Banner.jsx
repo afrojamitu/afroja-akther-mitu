@@ -5,18 +5,21 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Banner = () => {
 
+    // https://drive.google.com/file/d/${fileId}/view?usp=drive_link
+
     const handleDownload = () => {
-        const fileId = '1stOl5c0PJVaFALo-DngdWsIReQ3ACTl5';
+        const fileId = '1ExLT5d3ZWMTq9qPR4ncZLXKhncrtwIyh';
         const downloadLink = `https://drive.google.com/uc?export=download&id=${fileId}&response-content-disposition=attachment`;
         window.location.href = downloadLink;
     };
+
+   
 
     const [text] = useTypewriter({
         words: ['Jr. Frontend Developer', 'Jr. Web Developer', 'Jr. MERN Stack Developer'],
         loop: {},
         typeSpeed: 120,
         deleteSpeed: 100
-        // onLoopDone: () => console.log(`loop completed after 3 runs.`)
       })
 
     return (

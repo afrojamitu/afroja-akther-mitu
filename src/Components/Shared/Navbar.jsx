@@ -5,15 +5,15 @@ import './Navbar.css'
 const Navbar = () => {
 
     const navlinks = <>
-        <Link to="banner" spy={true} smooth={true} offset={-150} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 cursor-pointer'>Home</Link>
+        <Link to="banner" spy={true} smooth={true} offset={-150} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 rounded-md cursor-pointer'>Home</Link>
 
-        <Link to="about" spy={true} smooth={true} offset={-100} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 cursor-pointer'>About</Link>
+        <Link to="about" spy={true} smooth={true} offset={-100} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 rounded-md cursor-pointer'>About</Link>
 
-        <Link to="skill" spy={true} smooth={true} offset={-70} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 cursor-pointer'>Skill's</Link>
+        <Link to="skill" spy={true} smooth={true} offset={-70} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 rounded-md cursor-pointer'>Skill's</Link>
 
-        <Link to="project" spy={true} smooth={true} offset={-100} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 cursor-pointer'>Project</Link>
+        <Link to="project" spy={true} smooth={true} offset={-100} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 rounded-md cursor-pointer'>Project</Link>
 
-        <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 cursor-pointer'>Contact</Link>
+        <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}  className='flex items-center gap-2 text-white px-3 py-1 rounded-md cursor-pointer'>Contact</Link>
     </>
 
     return (
